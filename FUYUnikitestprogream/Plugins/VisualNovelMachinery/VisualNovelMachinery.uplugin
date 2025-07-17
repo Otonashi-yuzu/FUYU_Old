@@ -1,0 +1,117 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.8.1",
+	"FriendlyName": "Visual Novel Machinery by Al_Fe",
+	"Description": "Create visual novels in Unreal Engine",
+	"Category": "Blueprints",
+	"CreatedBy": "Al_Fe",
+	"CreatedByURL": "",
+	"DocsURL": "https://visual-novel-machinery.github.io/vnm_doc/",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/babcc9228b324ebc826dd9d5ec05611f",
+	"SupportURL": "https://discord.gg/GyHs7GwPWJ",
+	"EngineVersion": "5.4.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "VNM",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64",
+				"Linux",
+				"Mac",
+				"Android"
+			]
+		},
+		{
+			"Name": "VNMChoiceGraph",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64",
+				"Linux",
+				"Mac",
+				"Android"
+			]
+		},
+		{
+			"Name": "AdvancedLayeredImage",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64",
+				"Linux",
+				"Mac",
+				"Android"
+			]
+		},
+		{
+			"Name": "VNMEditor",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "PreLoadingScreen",
+			"PlatformAllowList": [
+				"Win64",
+				"Linux",
+				"Mac",
+				"Android"
+			]
+		},
+		{
+			"Name": "VNMEditorCommands",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"PlatformAllowList": [
+				"Win64",
+				"Linux",
+				"Mac",
+				"Android"
+			]
+		},
+		{
+			"Name": "VNMScriptEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Linux",
+				"Mac",
+				"Android"
+			]
+		},
+		{
+			"Name": "VNMWidgetGenerator",
+			"Type": "Editor",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64",
+				"Linux",
+				"Mac",
+				"Android"
+			]
+		},
+		{
+			"Name": "YarnImporterEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Linux",
+				"Mac",
+				"Android"
+			]
+		},
+		{
+			"Name": "YarnUtils",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64",
+				"Linux",
+				"Mac",
+				"Android"
+			]
+		}
+	]
+}

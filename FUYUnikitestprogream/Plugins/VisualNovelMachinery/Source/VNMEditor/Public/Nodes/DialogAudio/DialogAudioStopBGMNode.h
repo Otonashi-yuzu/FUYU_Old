@@ -1,0 +1,43 @@
+// Copyright (c) 2022 Al_Fe
+
+#pragma once
+
+#include "CoreMinimal.h"
+#include "K2Node.h"
+#include "TransitionEvent.h"
+#include "VNMBaseNode.h"
+#include "Components/AudioComponent.h"
+
+#include "DialogAudioStopBGMNode.generated.h"
+
+/**
+ * 
+ */
+UCLASS()
+class VNMEDITOR_API UDialogAudioStopBGMNode : public UVNMBaseNode
+{
+	GENERATED_BODY()
+
+public:
+    //UEdGraphNode implementation
+    virtual void AllocateDefaultPins() override;
+    virtual FText GetNodeTitle(ENodeTitleType::Type TitleType) const override;
+    virtual FText GetTooltipText() const override;
+	virtual FLinearColor GetNodeTitleColor() const override;
+	virtual FSlateIcon GetIconAndTint(FLinearColor& OutColor) const override;
+	virtual TSharedPtr<SGraphNode> CreateVisualWidget() override;
+    //UEdGraphNode implementation
+
+    //K2Node implementation
+	virtual bool ShouldShowNodeProperties() const override;
+    virtual void ExpandNode(class FKismetCompilerContext& CompilerContext, UEdGraph* SourceGraph) override;
+    //K2Node implementation
+
+protected:
+	
+	UPROPERTY(EditAnywhere, Category="Audio")
+	float FadeOutTime = 0.f;
+	
+	UPROPERTY(EditAnywhere, Category="Audio")
+	EAudioFaderCurve AudioFadeCurve = EAudioFaderCurve::Linear;
+};

@@ -1,0 +1,10 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\AdvancedLayeredImage\\AdvancedImageLayer.gen.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\AdvancedLayeredImage\\AdvancedLayeredImage.gen.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\AdvancedLayeredImage\\AdvancedLayeredImage.init.gen.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\AdvancedLayeredImage\\AdvancedLayeredImage.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\AdvancedLayeredImage\\AdvancedLayeredImageModule.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\AdvancedLayeredImage\\SAdvancedLayeredImage.cpp.obj"
+	]
+}

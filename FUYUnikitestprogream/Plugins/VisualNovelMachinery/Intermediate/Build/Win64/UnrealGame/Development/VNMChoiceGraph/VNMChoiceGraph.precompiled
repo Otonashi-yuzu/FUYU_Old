@@ -1,0 +1,16 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Development\\VNMChoiceGraph\\ChoiceBox.gen.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\VNMChoiceGraph\\ChoiceGraph.gen.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\VNMChoiceGraph\\DialogScenesDataAsset.gen.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\VNMChoiceGraph\\DialogScenesGraph.gen.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\VNMChoiceGraph\\GraphLineStyle.gen.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\VNMChoiceGraph\\VNMChoiceGraph.init.gen.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\VNMChoiceGraph\\VNMChoiceGraphSettings.gen.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\VNMChoiceGraph\\VNMChoiceGraphModule.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\VNMChoiceGraph\\ChoiceGraph.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\VNMChoiceGraph\\DialogScenesDataAsset.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\VNMChoiceGraph\\DialogScenesGraph.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\VNMChoiceGraph\\SChoiceGraph.cpp.obj"
+	]
+}
