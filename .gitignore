@@ -1,0 +1,33 @@
+# Unreal Engine 5 Recommended Git Ignore
+
+# Cache and build folders
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# IDE files
+.vs/
+.idea/
+*.VC.db
+*.suo
+*.user
+*.opensdf
+*.sdf
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Backups
+*.tmp
+*.bak
+*.orig
+*.swp
+
+# Project files (optional)
+*.sln
+*.xcodeproj/
+*.xcworkspace/

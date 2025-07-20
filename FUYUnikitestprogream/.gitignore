@@ -1,0 +1,55 @@
+# --------------------------------------------
+# Unreal Engine 5 Recommended Git Ignore File
+# --------------------------------------------
+
+# Build and intermediate files
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Visual Studio / Rider / Xcode
+.vs/
+.idea/
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.xcodeproj/
+*.xcworkspace/
+
+# Ignore macOS and Windows system files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Backup and temp files
+*.tmp
+*.bak
+*.orig
+*.swp
+
+# Ignore compiled assets
+*.pdb
+*.obj
+*.exe
+*.dll
+*.lib
+
+# Ignore generated project files (optional)
+*.sln
+*.opensdf
+*.sdf
+
+# Ignore crash reports and analytics
+CrashReportClient/Content/
+
+# Optional: Ignore config files if team uses custom per-user setup
+# Saved/Config/WindowsEditor/
+
+FUYUnikitestprogream/FUYUtest
